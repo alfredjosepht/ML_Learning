@@ -13,10 +13,12 @@ ML-Learning/
 │   └── student_performance_dataset.csv
 └── supervised_learning/
     ├── classification/
+    │   ├── adaboost.py
     │   ├── bagging.py
     │   ├── decision_tree.py
     │   ├── logistic_regression.py
-    │   └── naive_bayes.py
+    │   ├── naive_bayes.py
+    │   └── random_forest.py
     └── regression/
         ├── gradient_descent.py
         ├── linear_regression.py
@@ -74,6 +76,12 @@ A probabilistic classifier based on Bayes' Theorem under the conditional indepen
 #### 4. Bagging Classification (`classification/bagging.py`)
 An ensemble learning technique (Bootstrap Aggregating) that trains multiple Decision Trees on random subsets of the data (with replacement) to reduce variance and prevent overfitting. Outputs voting comparisons and Out-Of-Bag (OOB) validation assessments.
 
+#### 5. Random Forest Classification (`classification/random_forest.py`)
+An ensemble learning technique (Random Forest) that grows a forest of Decision Trees. Restricted to random subsets of features at each split, encouraging tree diversity and lowering variance. Visualizes feature importance scores.
+
+#### 6. AdaBoost Classification (`classification/adaboost.py`)
+An adaptive boosting classifier that sequentially trains weak learners (Decision Stumps) by adjusting training instance weights based on classification errors. Displays feature importance scores.
+
 ---
 
 ## 🚀 Getting Started
@@ -88,5 +96,5 @@ pip install numpy pandas scikit-learn matplotlib
 Run any of the Python files to observe the algorithm training output, console logs, and matplotlib visualization plots:
 ```bash
 cd supervised_learning/classification
-python decision_tree.py
+python random_forest.py
 ```
