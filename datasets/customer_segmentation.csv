@@ -1,0 +1,201 @@
+Customer_ID,Age,Annual_Income,Spending_Score,Segment
+1,19,96,15,Careful High Earner
+2,33,109,36,Careful High Earner
+3,65,43,18,Regular Customer
+4,65,28,87,Budget Shopper
+5,23,129,70,Regular Customer
+6,20,90,55,Regular Customer
+7,31,18,12,Low Engagement
+8,56,44,65,Regular Customer
+9,30,18,72,Budget Shopper
+10,62,106,84,Premium Customer
+11,32,84,54,Regular Customer
+12,35,72,76,Regular Customer
+13,66,118,1,Careful High Earner
+14,62,118,21,Careful High Earner
+15,35,69,44,Regular Customer
+16,66,34,28,Low Engagement
+17,23,58,14,Regular Customer
+18,40,63,13,Regular Customer
+19,56,123,45,Regular Customer
+20,64,48,6,Regular Customer
+21,25,73,69,Regular Customer
+22,23,139,49,Regular Customer
+23,58,85,38,Regular Customer
+24,54,94,47,Regular Customer
+25,22,39,91,Budget Shopper
+26,32,20,85,Budget Shopper
+27,23,113,38,Careful High Earner
+28,24,124,30,Careful High Earner
+29,47,63,36,Regular Customer
+30,28,96,47,Regular Customer
+31,31,62,46,Regular Customer
+32,62,100,35,Careful High Earner
+33,59,134,88,Premium Customer
+34,58,24,78,Budget Shopper
+35,64,36,69,Budget Shopper
+36,47,46,21,Regular Customer
+37,58,63,35,Regular Customer
+38,32,103,72,Premium Customer
+39,67,102,42,Regular Customer
+40,32,114,8,Careful High Earner
+41,69,120,5,Careful High Earner
+42,35,55,52,Regular Customer
+43,54,23,28,Low Engagement
+44,38,127,92,Premium Customer
+45,49,42,84,Regular Customer
+46,47,65,83,Regular Customer
+47,26,33,34,Low Engagement
+48,53,46,96,Regular Customer
+49,65,83,34,Regular Customer
+50,55,89,55,Regular Customer
+51,32,66,47,Regular Customer
+52,49,32,66,Budget Shopper
+53,21,26,97,Budget Shopper
+54,27,125,15,Careful High Earner
+55,68,95,21,Careful High Earner
+56,56,102,55,Regular Customer
+57,42,23,50,Regular Customer
+58,51,91,60,Regular Customer
+59,18,47,71,Regular Customer
+60,25,102,93,Premium Customer
+61,66,102,69,Regular Customer
+62,59,49,99,Regular Customer
+63,36,58,15,Regular Customer
+64,47,70,21,Regular Customer
+65,64,15,93,Budget Shopper
+66,66,48,65,Regular Customer
+67,24,37,65,Budget Shopper
+68,37,126,81,Premium Customer
+69,50,122,82,Premium Customer
+70,27,92,26,Careful High Earner
+71,28,62,98,Regular Customer
+72,51,84,100,Regular Customer
+73,56,132,1,Careful High Earner
+74,19,56,63,Regular Customer
+75,69,29,47,Regular Customer
+76,21,54,31,Regular Customer
+77,23,45,73,Regular Customer
+78,49,25,94,Budget Shopper
+79,66,119,9,Careful High Earner
+80,26,83,99,Regular Customer
+81,48,31,85,Budget Shopper
+82,28,136,71,Premium Customer
+83,56,48,68,Regular Customer
+84,52,69,28,Regular Customer
+85,62,111,94,Premium Customer
+86,37,40,92,Regular Customer
+87,59,66,86,Regular Customer
+88,51,62,57,Regular Customer
+89,33,72,16,Regular Customer
+90,39,43,9,Regular Customer
+91,53,17,76,Budget Shopper
+92,32,44,76,Regular Customer
+93,63,15,10,Low Engagement
+94,32,95,8,Careful High Earner
+95,39,23,5,Low Engagement
+96,33,24,66,Budget Shopper
+97,49,50,86,Regular Customer
+98,26,42,70,Regular Customer
+99,54,107,74,Premium Customer
+100,68,75,32,Regular Customer
+101,30,75,53,Regular Customer
+102,60,27,13,Low Engagement
+103,45,70,46,Regular Customer
+104,64,67,60,Regular Customer
+105,59,21,87,Budget Shopper
+106,24,140,83,Premium Customer
+107,64,22,52,Regular Customer
+108,33,58,14,Regular Customer
+109,52,39,25,Low Engagement
+110,45,72,18,Regular Customer
+111,47,38,36,Low Engagement
+112,46,46,10,Regular Customer
+113,24,118,71,Premium Customer
+114,52,21,84,Budget Shopper
+115,23,122,2,Careful High Earner
+116,33,133,97,Premium Customer
+117,49,36,53,Regular Customer
+118,43,76,28,Regular Customer
+119,28,130,8,Careful High Earner
+120,42,63,1,Regular Customer
+121,36,48,59,Regular Customer
+122,64,69,90,Regular Customer
+123,60,115,72,Premium Customer
+124,27,106,63,Regular Customer
+125,31,39,38,Low Engagement
+126,55,138,8,Careful High Earner
+127,21,109,70,Regular Customer
+128,21,110,41,Regular Customer
+129,48,21,75,Budget Shopper
+130,28,79,68,Regular Customer
+131,23,22,66,Budget Shopper
+132,22,123,24,Careful High Earner
+133,61,91,9,Careful High Earner
+134,43,125,31,Careful High Earner
+135,33,30,73,Budget Shopper
+136,20,89,77,Regular Customer
+137,44,94,11,Careful High Earner
+138,54,99,75,Premium Customer
+139,34,81,41,Regular Customer
+140,63,41,86,Regular Customer
+141,34,55,31,Regular Customer
+142,60,65,17,Regular Customer
+143,47,97,39,Careful High Earner
+144,22,55,97,Regular Customer
+145,57,16,59,Regular Customer
+146,22,87,13,Regular Customer
+147,50,83,28,Regular Customer
+148,40,48,17,Regular Customer
+149,33,127,9,Careful High Earner
+150,28,62,37,Regular Customer
+151,63,71,70,Regular Customer
+152,69,53,79,Regular Customer
+153,18,98,68,Regular Customer
+154,37,100,71,Premium Customer
+155,24,134,85,Premium Customer
+156,34,135,18,Careful High Earner
+157,65,29,14,Low Engagement
+158,35,85,20,Regular Customer
+159,31,51,78,Regular Customer
+160,31,106,44,Regular Customer
+161,34,102,82,Premium Customer
+162,34,79,63,Regular Customer
+163,23,130,7,Careful High Earner
+164,35,96,55,Regular Customer
+165,39,20,1,Low Engagement
+166,58,113,17,Careful High Earner
+167,28,140,34,Careful High Earner
+168,53,109,57,Regular Customer
+169,53,105,55,Regular Customer
+170,22,16,15,Low Engagement
+171,27,135,89,Premium Customer
+172,41,84,5,Regular Customer
+173,27,89,71,Regular Customer
+174,20,70,17,Regular Customer
+175,68,54,47,Regular Customer
+176,40,139,6,Careful High Earner
+177,33,41,88,Regular Customer
+178,40,100,14,Careful High Earner
+179,44,114,72,Premium Customer
+180,65,139,80,Premium Customer
+181,28,34,31,Low Engagement
+182,44,139,23,Careful High Earner
+183,65,18,23,Low Engagement
+184,68,133,43,Regular Customer
+185,69,134,53,Regular Customer
+186,69,100,95,Premium Customer
+187,28,46,35,Regular Customer
+188,24,115,90,Premium Customer
+189,48,63,5,Regular Customer
+190,70,43,26,Regular Customer
+191,40,132,59,Regular Customer
+192,32,54,30,Regular Customer
+193,30,18,85,Budget Shopper
+194,35,66,43,Regular Customer
+195,67,125,9,Careful High Earner
+196,59,50,45,Regular Customer
+197,61,80,52,Regular Customer
+198,39,140,69,Regular Customer
+199,25,135,4,Careful High Earner
+200,29,127,34,Careful High Earner
