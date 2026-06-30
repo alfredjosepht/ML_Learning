@@ -9,31 +9,35 @@ A curated playground directory for learning, implementing, and visualizing funda
 ```text
 ML-Learning/
 ├── datasets/
-│   ├── student_scores.csv
-│   └── student_performance_dataset.csv
-└── supervised_learning/
-    ├── classification/
-    │   ├── adaboost.py
-    │   ├── bagging.py
-    │   ├── boosting_overview.py
-    │   ├── decision_tree.py
-    │   ├── logistic_regression.py
-    │   ├── naive_bayes.py
-    │   └── random_forest.py
-    └── regression/
-        ├── gradient_descent.py
-        ├── linear_regression.py
-        ├── ridge_regression.py
-        └── lasso_regression.py
+│   ├── customer_segmentation.csv
+│   ├── student_performance_dataset.csv
+│   └── student_scores.csv
+├── supervised_learning/
+│   ├── classification/
+│   │   ├── adaboost.py
+│   │   ├── bagging.py
+│   │   ├── boosting_overview.py
+│   │   ├── decision_tree.py
+│   │   ├── logistic_regression.py
+│   │   ├── naive_bayes.py
+│   │   └── random_forest.py
+│   └── regression/
+│       ├── gradient_descent.py
+│       ├── linear_regression.py
+│       ├── ridge_regression.py
+│       └── lasso_regression.py
+└── unsupervised_learning/
+    └── kmeans.py
 ```
 
 ---
 
 ## 📊 Datasets
 
-The models in this repository are trained and evaluated on student academic datasets:
+The models in this repository are trained and evaluated on academic and commercial datasets:
 *   **`student_scores.csv`**: A simple dataset mapping hours studied to exam scores.
 *   **`student_performance_dataset.csv`**: A rich multi-feature dataset (500 records) including features such as `Hours_Studied`, `Attendance`, `Previous_Grade`, `Assignments_Completed`, `Sleep_Hours`, `Study_Sessions_Per_Week`, and others, mapped to continuous labels (grades) and binary outcomes (pass/fail).
+*   **`customer_segmentation.csv`**: A customer behavior dataset containing details on `Annual_Income` and `Spending_Score`, used for segmenting customer bases.
 
 ---
 
@@ -86,6 +90,11 @@ An adaptive boosting classifier that sequentially trains weak learners (Decision
 #### 7. Boosting Overview (`classification/boosting_overview.py`)
 A comprehensive theoretical comparison and study guide detailing the top 5 Boosting algorithms: AdaBoost, Gradient Boosting, XGBoost, LightGBM, and CatBoost. Explains workflows, mathematical concepts, and comparative trade-offs.
 
+### 👥 Unsupervised Learning
+
+#### 1. K-Means Clustering (`unsupervised_learning/kmeans.py`)
+An unsupervised clustering algorithm that partitions data into $K$ distinct clusters (e.g. $K=5$ customer segments). Utilizes the Elbow Method (Inertia vs $K$) to identify optimal cluster counts and plots final clustered segments.
+
 ---
 
 ## 🚀 Getting Started
@@ -99,6 +108,6 @@ pip install numpy pandas scikit-learn matplotlib
 ### 2. Running a Script
 Run any of the Python files to observe the algorithm training output, console logs, and matplotlib visualization plots:
 ```bash
-cd supervised_learning/classification
-python boosting_overview.py
+cd unsupervised_learning
+python kmeans.py
 ```
