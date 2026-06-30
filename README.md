@@ -15,6 +15,7 @@ ML-Learning/
     ├── classification/
     │   ├── adaboost.py
     │   ├── bagging.py
+    │   ├── boosting_overview.py
     │   ├── decision_tree.py
     │   ├── logistic_regression.py
     │   ├── naive_bayes.py
@@ -82,6 +83,9 @@ An ensemble learning technique (Random Forest) that grows a forest of Decision T
 #### 6. AdaBoost Classification (`classification/adaboost.py`)
 An adaptive boosting classifier that sequentially trains weak learners (Decision Stumps) by adjusting training instance weights based on classification errors. Displays feature importance scores.
 
+#### 7. Boosting Overview (`classification/boosting_overview.py`)
+A comprehensive theoretical comparison and study guide detailing the top 5 Boosting algorithms: AdaBoost, Gradient Boosting, XGBoost, LightGBM, and CatBoost. Explains workflows, mathematical concepts, and comparative trade-offs.
+
 ---
 
 ## 🚀 Getting Started
@@ -96,5 +100,5 @@ pip install numpy pandas scikit-learn matplotlib
 Run any of the Python files to observe the algorithm training output, console logs, and matplotlib visualization plots:
 ```bash
 cd supervised_learning/classification
-python random_forest.py
+python boosting_overview.py
 ```
